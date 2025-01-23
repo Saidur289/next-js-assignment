@@ -2,12 +2,7 @@ import getAllBlog from '@/hooks/getAllBlog';
 import getBlog from '@/hooks/getBlog';
 import React from 'react';
 
-export async function generateStaticParams(){
-    const posts = await getAllBlog()
-    return posts.map(post => ({
-        id: post.id.toString()
-    }))
-}
+
 
 const SingleBlog = async({params}) => {
 
