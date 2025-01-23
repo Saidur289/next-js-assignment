@@ -1,4 +1,4 @@
-import getAllBlog from '@/hooks/getAllBlog';
+
 import getBlog from '@/hooks/getBlog';
 import React from 'react';
 
