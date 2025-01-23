@@ -16,10 +16,10 @@ const Navbar = async() => {
                 <Link href = '/dashboard'>Profile</Link>
                 {(await isAuthenticated())? <> <LogoutLink >
                 <button className='px-3 py-1 bg-gray-200'>Log Out</button>
-                </LogoutLink></>: <>  <LoginLink postLoginRedirectURL='/dashboard'>
+                </LogoutLink></>: <>  <LoginLink >
                 <button className='px-3 py-1 bg-gray-200'>Login</button>
                 </LoginLink>
-                <RegisterLink postLoginRedirectURL='/dashboard'>
+                <RegisterLink>
                 <button className='px-3 py-1 bg-gray-200'>Sign Up</button>
                 </RegisterLink></>}
               
