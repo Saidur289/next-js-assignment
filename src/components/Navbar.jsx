@@ -9,7 +9,7 @@ const Navbar = async() => {
     return (
         <div className='flex justify-between items-center h-[8vh] p-5 py-8 border-b-2'>
             <div>
-                <Link href={'/'} className='text-2xl font-bold'>Logo</Link>
+                <Link href={'/'} className='text-2xl font-bold'>Home</Link>
             </div>
             <div className='flex items-center gap-x-5'>
                 {/* <Link href = '/profile'>Profile</Link> */}
